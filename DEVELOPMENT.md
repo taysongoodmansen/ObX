@@ -1,3 +1,4 @@
 - 2026-11-12 20:41:24 MST — Added a bit of project organization
 - 2026-11-12 20:45:17 MST — Add documentation and test directories
 - 2026-11-13 07:12:40 MST — Filled in some content
+- 2026-11-13 16:58:28 MST — Updated md formatting
