@@ -1,1 +1,2 @@
 - 2026-11-12 20:41:24 MST — Added a bit of project organization
+- 2026-11-12 20:45:17 MST — Add documentation and test directories
