@@ -18,5 +18,21 @@ int main(int argc, char *argv[])
     RunFile(file);
 
     fclose(file);
+    printf("Finished ");
+    if (Error_count+Warning_count+Notice_count==0){
+        printf("successfully");
+    }
+    else{
+        printf("with");
+        if (Error_count>0){
+            printf(", %d Error(s)",Error_count);
+        }
+        if (Warning_count>0){
+            printf(", %d Warning(s)",Warning_count);
+        }
+        if (Notice_count>0){
+            printf(", %d Notice(s)",Notice_count);
+        }
+    }
     return 0;
 }

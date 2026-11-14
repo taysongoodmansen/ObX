@@ -70,6 +70,11 @@ void replace_tokens(char tokens[128][128],int *token_count,int start,int end,cha
 #ifndef errorsH
 #define errorsH
 void return_error(const char *format, ...);
+void return_warning(const char *format, ...);
+void return_notice(const char *format, ...);
+extern int Error_count;
+extern int Warning_count;
+extern int Notice_count;
 #endif
 
 #ifndef operatorsH

@@ -1,0 +1,10 @@
+my_list = [0,1,5,7]
+parent.variable = 17
+
+print(my_list[2]+parent.variable)
+
+teams["TeamA"] = ["Jerry","Bob","Sarah"]
+teams["TeamB"] = ["Sally","Kendra"]
+teams["TeamC"] = ["David","Aly","Bill","Ruth"]
+
+print(teams["TeamC"][1])
