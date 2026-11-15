@@ -7,4 +7,4 @@ They can also change types through out the program, but type changes for
 anything runtime like [events](docs/language/events.md) and [code sections](docs/language/dictators-and-metadata.md#code) will return warnings if a variable type can change.
 More details on Warnings [here](docs/language/errors-and-warnings.md)
 
-[More on implementation](docs/architecture/implemetation.md#Variables)
+[More on implementation](docs/architecture/implementation.md#Variables)
