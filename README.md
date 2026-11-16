@@ -6,6 +6,9 @@ I'm making ObX so it can be directly built into my future Wayland compositor, My
 
 ## The Paradigm
 
+It and Myx are designed with a few things to solve a common
+issue in user envionrment. [read about here](docs/design/problem-fixed.md)
+
 ObX is designed around a few main ideas:
 
 - **User control:** Users should have as much control over configuration as possible.
