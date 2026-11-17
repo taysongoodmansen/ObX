@@ -15,8 +15,11 @@ be annoying to call it every time, so instead we could do `tempF = <eval>{(tempC
 where now every time you reference tempF it will return tempC turned to F. This way it can stop
 repetitive code usage. 
 
+A second example could be with time, instead of writting `get_current_time()` everywhere,
+you could instead do `time=<eval>{get_current_time()}` and then just use `time` everywhere instead.
+
 Another important usage of it is to change languages, because ObX has built-in
-support for other languages. From install ObX comes with `<code::C>` and `<code::Cdir>`.
+support for other languages. From install ObX comes with `<code:C>` and `<code:Cdir>`.
 This will change the following code to be outsourced to another language. You can 
 customize ObX to connect it to any coding language you want, but C is the only one by default.
 Cdir is used to modify ObX but is risky to use. Its main benefits would be mods to ObX that you could
@@ -37,3 +40,9 @@ but instead will try to reference `$.name` which doesn't exist (assuming the mes
 created in `$`); instead, before that line you would put `@use_dir="cur"`. This will
 make it so it will use the current directory instead. Now it would reference the name of
 whatever person directory you're in.
+
+A good use within commonly used variables is `@global` because it makes accessing a thing
+from anywhere much easier. It can also be with an input to change its scope where global.
+To do so you use expose instead, so  `@expose = $.myx.windows` would make it act as global, but only inside `$.myx.windows`,
+this just makes it easier to stop variable mix up, espcially in shared packages where you dont want
+global variables to interfere.
