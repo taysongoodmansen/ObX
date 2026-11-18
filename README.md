@@ -112,6 +112,7 @@ See the [documentation index](docs/index.md) for the full documentation.
 - [Includes](docs/language/includes.md)
 - [Dependencies](docs/language/dependencies.md)
 - [Errors and Warnings](docs/language/errors-and-warnings.md)
+- [Dictators and Metadata](docs/language/dictators-and-metadata.md)
 
 ### Architecture
 
