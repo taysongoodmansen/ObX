@@ -127,3 +127,5 @@ See the [documentation index](docs/index.md) for the full documentation.
 - [Design Philosophy](docs/design/philosophy.md)
 - [Design Decisions](docs/design/design-decisions.md)
 - [Roadmap](docs/design/roadmap.md)
+- [Problem fixed](docs/design/problem-fixed.md)
+- [Permissions and packages](docs/design/permissions-and-packages.md)
