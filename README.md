@@ -93,7 +93,7 @@ These features and their designs may change as development continues.
 
 ## Documentation
 
-The documentation goes into more detail about how ObX works, how its features are designed, and how the interpreter is implemented.
+The documentation goes into more detail about how ObX works, how its features are designed. The documentation is a work in progress, and not finished.
 
 See the [documentation index](docs/index.md) for the full documentation.
 
@@ -124,6 +124,7 @@ See the [documentation index](docs/index.md) for the full documentation.
 
 ### Design
 
+- [Design Overview](docs/design/overview.md)
 - [Design Philosophy](docs/design/philosophy.md)
 - [Design Decisions](docs/design/design-decisions.md)
 - [Roadmap](docs/design/roadmap.md)
